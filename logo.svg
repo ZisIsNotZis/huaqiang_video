@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">Huaqiang Video</title>
+  <desc id="desc">A watermelon slice framed like a cinematic play button</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#17110d"/><stop offset="1" stop-color="#392017"/></linearGradient><linearGradient id="melon" x2="0" y2="1"><stop stop-color="#ff735c"/><stop offset="1" stop-color="#bd302c"/></linearGradient></defs>
+  <rect width="720" height="220" rx="28" fill="url(#bg)"/>
+  <path d="M54 164A66 66 0 0 1 186 164Z" fill="#d7bd72" stroke="#f4e4a8" stroke-width="5"/>
+  <path d="M62 153A58 58 0 0 1 178 153Z" fill="url(#melon)"/>
+  <circle cx="94" cy="137" r="4" fill="#26140f"/><circle cx="121" cy="126" r="4" fill="#26140f"/><circle cx="150" cy="139" r="4" fill="#26140f"/>
+  <path d="m112 66 38 27-38 27z" fill="#f4e4a8"/>
+  <text x="224" y="113" fill="#f4e4a8" font-family="Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="3">HUAQIANG</text>
+  <text x="228" y="158" fill="#ff735c" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="8">VIDEO LAB</text>
+</svg>

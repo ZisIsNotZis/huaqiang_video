@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+dist/
+coverage/
+.remotion/
+*.log
+
+# Keep the checked-in final render; ignore other local exports.
+render/*
+!render/华强买瓜.mp4
