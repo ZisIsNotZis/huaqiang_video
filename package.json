@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "remotion studio --no-open",
     "studio": "remotion studio --no-open",
     "render": "remotion render src/index.ts HuaqiangMelon render/华强买瓜.mp4"
   },
