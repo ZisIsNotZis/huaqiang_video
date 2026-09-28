@@ -11,3 +11,16 @@ coverage/
 # Keep the checked-in final render; ignore other local exports.
 render/*
 !render/华强买瓜.mp4
+
+# Common local caches and temporary workspaces
+__pycache__/
+.pi/
+.tmp/
+worktrees/
+.worktrees/
+
+# Local secrets, test caches, and generated logs
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
