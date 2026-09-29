@@ -23,6 +23,10 @@ The composition keeps story beats, motion, and timing in code for repeatable ite
 
 ## Scope and status
 
+> **Status: closed (milestone, 2026-09-29).** A finished creative prototype with
+> a checked-in render. No further development is planned unless the project's
+> inputs or goals change.
+
 This is a creative prototype, not a finished film or general video editor. The current composition is 1280×720 at 30 fps and contains a checked-in render; see [`docs/project-status.md`](docs/project-status.md) for the evidence and limitations. Story and storyboard source live in [`docs/`](docs/).
 
 The story and supplied audio/video are project material. Confirm rights and likeness permissions before redistribution. No new Bilibili upload or arXiv paper is part of this repository.

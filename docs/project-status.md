@@ -2,7 +2,13 @@
 
 ## Classification
 
-`creative`: a scripted audiovisual experience and rendering experiment.
+`creative` (closed milestone): a scripted audiovisual experience and rendering experiment.
+
+## Status
+
+Closed as a milestone (2026-09-29). The creative prototype has a checked-in
+render; no further development is planned unless the project's inputs or goals
+change.
 
 ## Evidence
 
@@ -15,6 +21,8 @@
 
 This is not a general editor, a finished film, or a claim of cleared redistribution rights. The checked-in audio and video need a rights review before publication. There is no paper or publication record; creating one is outside this maintenance pass.
 
-## Next evidence
+## Deferred
 
-Run `npm install`, `npm run render`, and inspect the resulting MP4 before calling a new version release-ready. A future release should record the renderer version, output checksum, and asset rights review.
+A rights review of the checked-in audio/video and a formal release (renderer
+version, output checksum, asset rights review) were left undone; no paper or
+publication is part of this repository.
