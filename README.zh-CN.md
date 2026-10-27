@@ -12,7 +12,11 @@
 
 > **状态：** 0.1.0 创意里程碑已完成。这是一个带成片的原型，不是持续开发的产品，也不是通用视频编辑器或最终成片。
 
-▶ **[查看已入库的 70 秒成片](render/%E5%8D%8E%E5%BC%BA%E4%B9%B0%E7%93%9C.mp4)** · 1280×720，30 fps
+▶ **[查看已入库的 70 秒成片](render/%E5%8D%8E%E5%BC%BA%E4%B9%B0%E7%93%9C.mp4)** · 1280×720，30 fps，H.264，23 MB
+
+![成片中的四个画面：瓜摊全景、摊主特写、切开瓜的证据、跑路镜头](assets/showcase.png)
+
+*四张画面直接从已入库的成片里截取——全景、人脸特写、切开瓜的证据、跑路。*
 
 ## 快速开始
 
@@ -53,6 +57,7 @@ Remotion 只加载一个入口、注册一个合成，整部短片都从同一�
 | [`src/HuaqiangMelon.tsx`](src/HuaqiangMelon.tsx) | 整部短片：场次节奏、SVG 街景、three.js 人物、运镜、字幕与音频。 |
 | [`public/audio/huaqiang/`](public/audio/huaqiang/) | 配音、配乐和音效，通过 Remotion 的 `staticFile()` 读取。 |
 | [`docs/designs/`](docs/designs/README.md) | 分镜、场面调度和结构分析的正式版本。 |
+| [`docs/project-status.md`](docs/project-status.md) | 里程碑状态、边界与待办工作。 |
 | [`docs/华强买瓜lines.md`](docs/%E5%8D%8E%E5%BC%BA%E4%B9%B0%E7%93%9Clines.md) | 完整台词本。 |
 | [`render/华强买瓜.mp4`](render/%E5%8D%8E%E5%BC%BA%E4%B9%B0%E7%93%9C.mp4) | 已入库的成片。 |
 
@@ -62,7 +67,7 @@ Remotion 只加载一个入口、注册一个合成，整部短片都从同一�
 
 ```bash
 npm run studio    # 在 Remotion Studio 中预览合成
-npm run render    # 生成 render/华强买瓜.mp4（H.264、yuv420p）
+npm run render    # 生成 render/华强买瓜.mp4（H.264 MP4，2100 帧）
 npx tsc --noEmit  # 严格 TypeScript 类型检查
 ```
 

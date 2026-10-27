@@ -12,7 +12,11 @@
 
 > **Status:** closed 0.1.0 creative milestone. This is a finished prototype with a checked-in render, not an actively developed product, a general video editor, or a final film.
 
-▶ **[Watch the checked-in 70-second render](render/%E5%8D%8E%E5%BC%BA%E4%B9%B0%E7%93%9C.mp4)** · 1280×720, 30 fps
+▶ **[Watch the checked-in 70-second render](render/%E5%8D%8E%E5%BC%BA%E4%B9%B0%E7%93%9C.mp4)** · 1280×720, 30 fps, H.264, 23 MB
+
+![Four frames from the render: the market wide shot, a seller close-up, the cut-melon reveal, the escape](assets/showcase.png)
+
+*Four frames pulled from the checked-in render — wide shot, face close-up, the reveal, the escape.*
 
 ## Quick start
 
@@ -53,6 +57,7 @@ Remotion loads one entry point, registers one composition, and renders the whole
 | [`src/HuaqiangMelon.tsx`](src/HuaqiangMelon.tsx) | The film: scene timing, SVG market set, three.js characters, camera moves, captions and audio. |
 | [`public/audio/huaqiang/`](public/audio/huaqiang/) | Voice clips, BGM and sound effects, loaded through Remotion's `staticFile()`. |
 | [`docs/designs/`](docs/designs/README.md) | Canonical storyboard, staging map and structure notes. |
+| [`docs/project-status.md`](docs/project-status.md) | Milestone status, boundaries and deferred work. |
 | [`docs/华强买瓜lines.md`](docs/%E5%8D%8E%E5%BC%BA%E4%B9%B0%E7%93%9Clines.md) | Full dialogue script. |
 | [`render/华强买瓜.mp4`](render/%E5%8D%8E%E5%BC%BA%E4%B9%B0%E7%93%9C.mp4) | The checked-in render. |
 
@@ -62,7 +67,7 @@ The composition keeps story beats, motion and timing in code: edit the timeline,
 
 ```bash
 npm run studio    # preview the composition in Remotion Studio
-npm run render    # write render/华强买瓜.mp4 (H.264, yuv420p)
+npm run render    # write render/华强买瓜.mp4 (H.264 MP4, 2100 frames)
 npx tsc --noEmit  # strict TypeScript check
 ```
 
